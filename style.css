@@ -1,0 +1,143 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0d0ff; /* Lilac background color */
+    color: #333; /* Text color */
+}
+
+/* Header styles */
+header {
+    background-color: #d29eee; /* Lighter lilac header background */
+    text-align: center;
+    padding: 20px;
+}
+
+h1.centered {
+    font-family: 'Pacifico', cursive; /* Pretty font for the title */
+    font-size: 48px;
+    color: #fff; /* White text color */
+    margin-bottom: 20px;
+}
+
+/* Navigation styles */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d29eee; /* Matching header background */
+    padding: 10px 0;
+}
+
+.nav-button {
+    color: #fff; /* White text color */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 20px;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.nav-button:hover {
+    color: #ff80bf; /* Hover color */
+}
+
+/* About section styles */
+#about {
+    background-color: #fff; /* White background for contrast */
+    padding: 40px;
+    text-align: center;
+}
+
+#profile-picture {
+    width: 250px;
+    height: 350px;
+    margin-top: 20px;
+    border: 5px solid #d29eee; /* Lilac border for the picture */
+    border-radius: 50%; /* Rounded picture */
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #d29eee; /* Lilac text color */
+}
+
+/* Work section styles */
+#work {
+    background-color: #fff; /* White background for contrast */
+    padding: 40px;
+    text-align: center;
+}
+
+.project-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.project-row a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    color: #333; /* Text color */
+    background-color: #d29eee; /* Lilac background */
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+
+.project-row a:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    background-color: #ff80bf; /* Hover color */
+    color: #fff; /* White text color */
+}
+
+.project-row a img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #fff; /* White background for contrast */
+    padding: 40px;
+    text-align: center;
+}
+
+#contact-box {
+    padding: 20px;
+    background-color: #d29eee; /* Lilac background */
+    border: 1px solid #ff80bf; /* Pink border */
+    border-radius: 5px;
+    width: 25%;
+    margin: 0 auto 30px;
+}
+
+#contact-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Text color */
+}
+
+#contact-box p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
